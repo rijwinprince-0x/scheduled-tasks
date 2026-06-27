@@ -12,7 +12,7 @@ print("PASSWORD SET:", MY_PASSWORD is not None)
 
 # 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday,
 # 4 = Friday, 5 = Saturday, 6 = Sunday
-TARGET_DAY = 5
+TARGET_DAY = 0
 
 now = dt.datetime.now()
 weekday = now.weekday()
